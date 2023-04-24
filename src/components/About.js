@@ -62,7 +62,9 @@ export const About = () => {
           </motion.div>
             <div className='about2' id='abouts2'>
                 <motion.div custom={4} variants={textAnimation2} className="about3">
-                <p>.<br></br>.</p>
+                <p>I have always dreamed of creating innovative solutions in the field of machine learning, and if given the chance, I will do everything in my power to turn my dreams into reality.<br></br>
+                    I have the knowledge and experience in machine learning that has allowed me to develop solutions using the latest technologies.<br></br>
+                    I`m ready to use my skills and knowledge to help you achieve maximum results. I`m confident that together we can grow and reach new heights. </p>
               </motion.div>
             </div>
             </div>

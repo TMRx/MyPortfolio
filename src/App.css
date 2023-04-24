@@ -247,11 +247,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   padding: 8px 10px;
   /* background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%); */
-  /* background: linear-gradient(#a27777, #979ddb); */
+  background: linear-gradient(#f48dcb45, #a2a9f159);
   /* border: 1px solid rgba(255, 255, 255, 0.5); */
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  animation: border-text 3s linear infinite;
+  border-radius: 14px;
 }
 .banner h1 {
   font-size: 65px;
@@ -260,6 +262,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  height: 180px;
 }
 .banner p {
   color: #B8B8B8;
@@ -305,6 +308,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
         transform: translateY(-20px);
         border: 2px solid #d9d9d9;
     }
+}
+@keyframes border-text {
+  0% {
+      border: 2px solid #f48dcb;
+  }
+  50% {
+      border: 2px solid #a2a9f1;
+  }
+  100% {
+      border: 2px solid #f48dcb;
+  }
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;

@@ -22,19 +22,18 @@ export const Skill = () => {
     // If 3D Text Sphere is not showing up after deployment remove the return (i.e, return() =>{}) function from below code
     return () => {
       const texts = [
-        'HTML',
-        'CSS',
-        'SASS',
+        'HTML/CSS',
+        'API',
+        'Python',
         'JavaScript',
         'React',
-        'Vue',
-        'Nuxt',
+        'Numpy',
+        'Postgresql',
         'NodeJS',
-        'Shopify',
-        'Jquery',
-        'ES6',
+        'Aiogram',
+        'Tensorflow',
+        'AWS',
         'GIT',
-        'GITHUB',
       ];
       // Decrasing 'radius' value for small screen devices  
       function radiusValue() {
