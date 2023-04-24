@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 // import logo from '../assets/img/t-rex.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon2 from '../assets/img/codewars.svg';
 import navIcon3 from '../assets/img/github.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
@@ -51,12 +51,12 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%BE-%D0%BC%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA-04449b1b2/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.facebook.com/profile.php?id=100081756176917"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.codewars.com/users/TMRx"><img src={navIcon2} alt="" /></a>
                 <a href="https://github.com/TMRx"><img src={navIcon3} alt="" /></a>
               </div>
-              {/* <HashLink to='#connect'> */}
+              <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
-              {/* </HashLink> */}
+              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>

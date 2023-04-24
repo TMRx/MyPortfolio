@@ -4,6 +4,7 @@ import headerImg from "../assets/img/me2.jpg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -11,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Python Developer", "Machine learning Engineer"];
+  const toRotate = ["Python Developer.", "Machine learning Engineer."];
   const period = 2000;
 
   useEffect(() => {
@@ -60,9 +61,12 @@ export const Banner = () => {
                     Transforms, opening new possibilities unfurled,
                     Efficiency and innovation, we see them everywhere,
                     And the future depends on how we use them with ethics and care.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={27} /></button>
               </div>}
             </TrackVisibility>
+            {/* <HashLink to='#connect'>
+              <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={27} /></button>
+            </HashLink>
+             */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
