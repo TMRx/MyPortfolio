@@ -58,7 +58,7 @@ export const Skill = () => {
   }, []);
   return (
     <>
-      <div className="skill">
+      <div className="skill" id="skills" >
         <div className="skill__main-container">
           <div className="skill__header" id="skill__heading">
             <h2>Skills
@@ -115,30 +115,14 @@ export const Skill = () => {
              <div className="skill__info">
               <div className="skill__details-container">
                 <div className="skill__details">
-                  <h4>HTML / CSS</h4>
+                  <h4>HTML/CSS/JS</h4>
                   <ul>
                     <li>
                       <span>HTML5, CSS3</span>
                     </li>
-                    <li>
+                     <li>
                       <span>
-                        <b>Preprocessors:</b> PUG, SASS
-                      </span>
-                    </li>
-                    <li>
-                      <span>
-                        <b>Modular:</b> BEM
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="skill__details">
-                  <h4>JavaScript</h4>
-                  <ul>
-                    <li>
-                      <span>
-                        <b>Frameworks & Libraries:</b> &nbsp; React JS, React
-                        Native, Vue.js, Nuxt
+                        <b>Frameworks & Libraries:</b> &nbsp; React JS
                       </span>
                     </li>
                     <li>
@@ -155,33 +139,74 @@ export const Skill = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="skill__details">
-                  <h4>Version Control Systems</h4>
-                  <ul>
+              {/* <div className="skill__details"> */}
+                  {/* <h4>JavaScript</h4> */}
+                  {/* <ul>
+                   
                     <li>
-                      <span>GIT</span>
+                      <span>ES5/ES6</span>
                     </li>
-                  </ul>
-                </div>
-                <div className="skill__details">
-                  <h4>E-Commerce</h4>
-                  <ul>
-                    <li>
-                      <span>Shopify</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="skill__details"> 
-                  <h4>Server Side</h4>
-                  <ul>
                     <li>
                       <span>Node.js</span>
                     </li>
                     <li>
-                      <span>Express.js</span>
+                      <span>jQuery</span>
                     </li>
                     <li>
-                      <span>MongoDB</span>
+                      <span>Typescript</span>
+                    </li>
+                  </ul> */}
+                {/* </div> */}
+                <div className="skill__details">
+                  <h4>Python</h4>
+                  <ul>
+                    <li>
+                      <span>PyQT, PySide, Tkinter </span>
+                    </li>
+                    <li>
+                      <span> Multiprocessing, Threading, Socket, Asyncio </span>
+                    </li>
+                    <li>
+                      <span> OOP </span>
+                    </li>
+                    <li>
+                      <span> Django,  REST API, Flask API, GraphQL </span>
+                    </li>
+                    <li>
+                      <span> TCP/IP, OSI, Http requests </span>
+                    </li>
+                    <li>
+                      <span> Telegram Bots(aiogram, telegram-bot)</span>
+                    </li>
+                    <li>
+                      <span> Clean Code</span>
+                    </li>
+                    
+                  </ul>
+
+                </div>
+                <div className="skill__details">
+                  <h4>Machine Learning</h4>
+                  <ul>
+                    <li>
+                      <span> jupyter, numpy, scipy, pandas, keras, tensorflow, opencv</span>
+                    </li>
+                  </ul>
+                </div>
+                <div className="skill__details"> 
+                  <h4>Others</h4>
+                  <ul>
+                    <li>
+                      <span>Docker, Docker Compose, Kubernetes</span>
+                    </li>
+                    <li>
+                      <span>AWS, GCP, Heroku</span>
+                    </li>
+                    <li>
+                      <span>SQL, Postgresql</span>
+                    </li>
+                    <li>
+                      <span>Unix/Linux</span>
                     </li>
                   </ul>
                 </div>

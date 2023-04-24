@@ -58,7 +58,7 @@ export const About = () => {
           </motion.div>
           <div class='box'>
             <motion.div custom={3} variants={textAnimation} className="about">
-            <p>Hi, my name is Dmitry, i'm python developer.<br></br>I am cool.</p>
+            <p>Hi  my name is Dmitry, i`m beginner python developer.<br></br>I studied at the College for 4 years and programmed in C, C++ and studied to be a network engineer for 4 years in institution.<br></br>Recently I was preparing for the Lpic 1-101 Lpic 1-102 Lpic 2-101 Lpic 2-102 program, but I did not close the certificates because there was no opportunity. And now I programming in Python (Telegram Bots, API, Lgic) and Al/Machine learning projects</p>
           </motion.div>
             <div className='about2' id='abouts2'>
                 <motion.div custom={4} variants={textAnimation2} className="about3">
