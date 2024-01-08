@@ -22,7 +22,7 @@ export const Footer = () => {
             </div> */}
             {/* <p>Copyright 2023 by Dmitry Melnik</p> */}
           </Col>
-          <p>Copyright © 2023  by Dmitry Melnik</p>
+          <p>Copyright © 2024  by Dmitry Melnik</p>
         </Row>
       </Container>
     </footer>
